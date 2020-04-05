@@ -23,6 +23,7 @@ npm start
 
 ### Next features
 
+- Upgrade to Hyperapp v2
 - Testing support
 - SASS/SCSS integration
 - Routing logic

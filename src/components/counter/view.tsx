@@ -1,5 +1,5 @@
-import { h } from "hyperapp";
-import CounterActions from "./actions";
+import { h } from 'hyperapp';
+import CounterActions from './actions';
 
 // Approach to deal with little elements (Similar to React)
 function showTitle(number: number) {

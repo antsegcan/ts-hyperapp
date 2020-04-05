@@ -1,20 +1,19 @@
 {
   "name": "parcel-hyperapp-typescript",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Very light frontend development environment",
   "main": "index.js",
   "scripts": {
     "start": "parcel ./src/index.html",
-    "test": "jest --coverage --no-cache"
+    "test": "echo No test found && exit 0"
   },
   "license": "MIT",
   "dependencies": {
-    "hyperapp": "^1.2.1",
-    "picostyle": "^1.0.2"
+    "hyperapp": "^1.0.0"
   },
   "devDependencies": {
-    "parcel-bundler": "^1.6.2",
-    "tslint": "^5.9.1",
-    "typescript": "^2.7.2"
+    "parcel-bundler": "^1.0.0",
+    "tslint": "^6.0.0",
+    "typescript": "^3.8.0"
   }
 }
