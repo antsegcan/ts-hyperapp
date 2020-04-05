@@ -13,6 +13,7 @@
     "no-consecutive-blank-lines": true,
     "no-console": [true, "debug", "info", "time", "timeEnd", "trace"],
     "no-empty": false,
+    "no-extra-semi": false,
     "no-host-metadata-property": true,
     "no-input-rename": true,
     "no-inputs-metadata-property": true,
@@ -29,6 +30,7 @@
     "ordered-imports": false,
     "prefer-for-of": false,
     "quotemark": [true, "single"],
+    "semicolon": [true, "always", "strict-bound-class-methods"],
     "trailing-comma": false,
     "variable-name": false
   },

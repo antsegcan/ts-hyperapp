@@ -1,10 +1,12 @@
 {
   "name": "parcel-hyperapp-typescript",
-  "version": "0.1.0",
-  "description": "Very light frontend development environment",
-  "main": "index.js",
+  "version": "0.2.0",
+  "description": "Minimal environment to build great things with minimal dependencies",
+  "main": "index.ts",
   "scripts": {
     "start": "parcel ./src/index.html",
+    "prebuild": "rimraf dist",
+    "build": "parcel build ./src/index.html --no-source-maps",
     "test": "echo No test found && exit 0"
   },
   "license": "MIT",
@@ -12,8 +14,9 @@
     "hyperapp": "^1.0.0"
   },
   "devDependencies": {
+    "eslint": "^6.8.0",
     "parcel-bundler": "^1.0.0",
-    "tslint": "^6.0.0",
+    "rimraf": "^3.0.2",
     "typescript": "^3.8.0"
   }
 }
