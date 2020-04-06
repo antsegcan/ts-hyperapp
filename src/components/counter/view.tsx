@@ -1,5 +1,5 @@
 import { h } from 'hyperapp';
-import CounterActions from './actions';
+import { Substract, Add } from './actions';
 
 // Approach to deal with little elements (Similar to React)
 function showTitle(number: number) {
@@ -11,12 +11,12 @@ function showTitle(number: number) {
 }
 
 // The main view to be exported
-const view = (state, actions: CounterActions) => {
+const view = (state) => {
   return (
     <div>
       <h1>{state.count}</h1>
-      <button onclick={() => actions.down(1)}>-</button>
-      <button onclick={() => actions.up(1)}>+</button>
+      <button onClick={Substract}>-</button>
+      <button onClick={Add}>+</button>
       {showTitle(state.count)}
     </div>
   );
