@@ -1,6 +1,8 @@
 import { h } from 'hyperapp';
 import { Substract, Add } from './actions';
 
+import './styles.scss';
+
 // Approach to deal with little elements (Similar to React)
 function showTitle(number: number) {
   if (10 < number) {
@@ -13,8 +15,8 @@ function showTitle(number: number) {
 // The main view to be exported
 const view = (state) => {
   return (
-    <div>
-      <h1>{state.count}</h1>
+    <div classList="cmp-block">
+      <span>{state.count}</span>
       <button onClick={Substract}>-</button>
       <button onClick={Add}>+</button>
       {showTitle(state.count)}

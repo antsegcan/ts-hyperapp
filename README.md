@@ -23,9 +23,7 @@ npm start
 
 ### Next features
 
-- Upgrade to Hyperapp v2
 - Testing support
-- SASS/SCSS integration
 - Multiple environment configurations
 - Routing logic
 - SPA attempt
